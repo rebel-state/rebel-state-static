@@ -1,0 +1,69 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "Learn"
+url = "blog/"
+weight = 3
+
+[[main]]
+name = "Products"
+url = "products/"
+weight = 4
+
+[[main]]
+weight = 5
+name = "Resources"
+hasChildren = true
+
+[[main]]
+parent = "Resources"
+name = "Learn"
+url = "blog/"
+
+[[main]]
+parent = "Resources"
+name = "Contact"
+url = "contact/"
+
+[[main]]
+parent = "Resources"
+name = "Authors"
+url = "authors/"
+
+[[main]]
+parent = "Resources"
+name = "Categories"
+url = "categories/"
+
+[[main]]
+parent = "Resources"
+name = "404 Page"
+url = "404/"
+
+
+# footer menu
+[[footer]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[footer]]
+name = "Elements"
+url = "elements/"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 3
