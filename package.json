@@ -1,49 +1,25 @@
 {
-  "name": "@tinacms/starter",
-  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "tinacms dev -c \"next dev\"",
-    "build": "tinacms build && next build",
-    "start": "tinacms build && next start",
-    "export": "npm run build && next export",
-    "lint": "next lint",
-    "dev:build": "next build"
-  },
-  "devDependencies": {
-    "@svgr/webpack": "^8.1.0",
-    "@tinacms/cli": "^1.5.34",
-    "@types/js-cookie": "^3.0.0",
-    "@types/node": "^20.14.4",
-    "@types/react": "^18.3.3",
-    "@types/styled-components": "^5.1.15",
-    "autoprefixer": "^10.4.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.4",
-    "postcss": "^8.3.11",
-    "postcss-import": "^16.1.0",
-    "postcss-nesting": "^12.1.5"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
   },
   "dependencies": {
-    "@headlessui/react": "^2.1.1",
-    "@tailwindcss/typography": "^0.5.8",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.0.1",
-    "date-fns": "^3.6.0",
-    "next": "^14.2.4",
-    "next-themes": "^0.3.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-icons": "^5.2.1",
-    "styled-jsx": "^5.1.1",
-    "tailwind-merge": "^2.3.0",
-    "tailwindcss": "^3.2.4",
-    "tinacms": "^1.6.4",
-    "typescript": "^5.5.3"
+    "@chakra-ui/next-js": "^2.2.0",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "framer-motion": "^11.2.14",
+    "next": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
-  "resolutions": {
-    "_#IMPORTANT": "The below resolutions are required due to tinacms being on react 17",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "typescript": "^4.8.3"
   }
 }
